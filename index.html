@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="cart">
+    <div class="cart__header">
+      <img src="images/chip.png" alt="">
+      <img src="images/visa.png" alt="">
+    </div>
+    <div class="cart__number">
+      #### #### #### ####
+    </div>
+    <div class="cart__footer">
+      <div>Card Holder <br><span>Name</span></div>
+      <div>Expired <br><span>MM</span>/<span>YY</span></div>
+    </div>
+  </div>
+  <form>
+    <div class="content">
+      <label for="cNumber">Card Number</label><br>
+      <input type="text" id="cNumber" name="cNumber" size="41" maxlength="16"><br>
+      <label for="cName">Card Name</label><br>
+      <input type="text" id="cName" name="cName" size="41"><br>
+      <label for="cars">Expiration Date</label>
+      <label for="cars" id="CVV1"> CVV</label><br>
+      <select id="Month" name="Month">
+        <option value="Month">Month</option>
+        <option value="01">01</option>
+        <option value="02">02</option>
+        <option value="03">03</option>
+        <option value="04">04</option>
+        <option value="01">05</option>
+        <option value="02">06</option>
+        <option value="03">07</option>
+        <option value="04">08</option>
+        <option value="01">09</option>
+        <option value="02">10</option>
+        <option value="03">11</option>
+        <option value="04">12</option>
+      </select>
+      <select id="Year" name="Year">
+        <option value="Year">Year</option>
+        <option value="2020">2020</option>
+        <option value="2021">2021</option>
+        <option value="2022">2022</option>
+      </select>
+      <input type="text" id="CVV" name="CVV" size="4" maxlength="3"><br><br>
+      <input class="btn" type="submit" value="Submit">
+    </div>
+  </form>
+
+</body>
+
+</html>

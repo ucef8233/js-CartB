@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap&subset=latin-ext');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-size: 1.2rem;
+  font-family: 'Karla',
+    sans-serif;
+
+}
+
+body {
+  background-color: black;
+}
+
+.cart {
+  height: 12em;
+  width: 20em;
+  background: url(../images/6.jpeg) no-repeat;
+  background-position-x: 20%;
+  background-position-y: 20%;
+  margin: 10em auto 0em auto;
+  position: relative;
+  z-index: 99;
+  border-radius: 10px;
+  padding: 1em;
+
+
+  &__header,
+  &__footer {
+    display: flex;
+    justify-content: space-between;
+
+    img {
+      width: 4em;
+      height: 2em;
+    }
+
+  }
+
+  &__footer {
+    margin-top: 2em;
+    color: white;
+
+    div {
+      font-size: 0.6em;
+    }
+  }
+
+  &__number {
+    color: white;
+    text-align: center;
+    margin-top: 1.5em;
+    font-size: 1.5em;
+  }
+}
+
+form {
+  background-color: white;
+  height: 24.5em;
+  width: 26.5em;
+  margin: 15em auto 1em auto;
+  border-radius: 10px;
+  line-height: 1.6;
+
+
+  label {
+    font-size: 1em;
+
+  }
+
+  select,
+  input {
+    border-radius: 5px;
+    height: 36px;
+    font-size: 1em;
+    margin-bottom: 0.3em;
+    padding: 0.2em 0.6em;
+  }
+
+  select {
+    width: 6.5em;
+
+  }
+
+  .content {
+    margin-top: -21em;
+    padding: 8em 1em 2em 2em;
+  }
+}
+
+#CVV {
+  margin-left: 2.3em;
+  width: 6.2em;
+}
+
+#CVV1 {
+  margin-left: 9.8em;
+}
+
+#Year {
+  margin-left: 0.4em;
+}
+
+.btn {
+  width: 22.5em;
+  background-color: blue;
+  text-align: center;
+  color: white;
+  padding: 0.7em 0em;
+  height: 2.8em;
+}
